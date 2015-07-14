@@ -1,0 +1,1 @@
+15,45 * * * * root if ! pgrep update.sh; then /home/nod32/update.sh >> /var/log/cron.log 2>&1; fi
